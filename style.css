@@ -38,8 +38,11 @@ li > a:hover{
 }
 @media only screen and (max-width: 600px){
     nav {
-        font-size: 0.5em;
         padding: 0;
+        
+    }
+    li > a{
+        font-size: 12px;
     }
 }
 .divider{
