@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 nav{
+    border: 1px solid black;
     background: black;
     border: 1px solid black;
 	transition: all 0.3s linear;
@@ -38,7 +39,7 @@ li > a:hover{
 }
 @media only screen and (max-width: 600px){
     li {
-        padding: 0;
+        padding: 5px;
         
     }
     li > a{
